@@ -14,6 +14,12 @@ body, html{
   grid-template-rows: repeat(auto-fit, 1fr);
  
 }
+
+main {
+  width: 85%;
+  justify-self: center;
+  font-family: 'Brush Script MT', cursive;
+}
 /*.................HEADER..................*/
 
 
@@ -51,7 +57,7 @@ h1 {
     font-size: 1.5em;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -60,7 +66,6 @@ h2 {
   grid-template-columns: 1/-1;
   grid-template-rows: 2fr;
   width: 100%;
-  font-family: 'Brush Script MT', cursive;
   font-size: 2rem;
   font-weight: 10;
   text-align: center;
@@ -74,12 +79,11 @@ h2 {
 }
 
 .img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+  border-radius: 70%;
   
 }
-
-
 
 #summary ul {
   font-size:smaller ;
@@ -90,7 +94,8 @@ h2 {
 
 /*..............FOOTER.................*/
 footer a {
-  justify-content: center;
+  float: right;
+  margin: 2%;
 }
 
 /*..............MEDIA...................*/
@@ -120,6 +125,19 @@ footer a {
     display: block;
     text-align: right;
 
+  }
+
+  #summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;  
+    color: rgb(232, 235, 231);  
+  }
+
+  #summary ul {
+    font-size: 1rem;
+    align-items: center;
+    justify-self: center;
   }
 
 }
