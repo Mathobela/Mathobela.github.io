@@ -86,7 +86,6 @@ h2 {
 }
 
 #summary ul {
-  font-size:smaller ;
   align-items: center;
   justify-self: center;
 }
@@ -138,7 +137,6 @@ footer a {
   }
 
   #summary ul {
-    font-size: larger;
     align-items: center;
     justify-self: center;
   }
