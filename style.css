@@ -132,7 +132,6 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;  
-    color: rgb(107, 97, 97); 
     font-weight: bold;
   }
 
