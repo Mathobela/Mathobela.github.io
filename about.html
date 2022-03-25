@@ -7,7 +7,16 @@
     <script src="https://kit.fontawesome.com/de10bfd418.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>The Div/Eloper | About</title>
-
+    <script>
+    function mobileNavigation() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
     </head>
     
     <body>
@@ -57,14 +66,4 @@
     
 </footer>
 </body>
-<script>
-    function mobileNavigation() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
 </html>
