@@ -80,7 +80,7 @@ h2 {
   color: rgb(42, 79, 94);
 }
 
-#aboutme {
+#aboutme, #contact, #stack, #project {
   line-height: 1.5em;
   font-size: 1.5em;
   
