@@ -6,19 +6,28 @@
 
 body, html{
   background-image: url("wallpaper.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  width: 100%;
  
-  display: grid;
-  grid-template-columns: 1/-1;
-  grid-template-rows: repeat(auto-fit, 1fr);
- 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column;
 }
 
 main {
   width: 85%;
   justify-self: center;
   font-family: 'Brush Script MT', cursive;
+}
+
+#aboutme {
+  line-height: 1.5em;
+  font-size: 1em;
+  
 }
 /*.................HEADER..................*/
 
@@ -81,8 +90,7 @@ h2 {
 .img {
   max-width: 50%;
   height: auto;
-  border-radius: 70%;
-  
+  justify-self:center;
 }
 
 #summary ul {
@@ -100,6 +108,9 @@ footer a {
   margin: 2%;
 }
 
+footer {
+  box-sizing: border-box;
+}
 /*..............MEDIA...................*/
 @media screen and (min-width: 600px) {
 
