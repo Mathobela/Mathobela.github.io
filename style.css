@@ -98,8 +98,9 @@ h2 {
 
 #form label {
   float: left;
-  width: 100px;
+  width: 150px;
 }
+
 /*..............FOOTER.................*/
 footer a {
   float: right;
@@ -148,5 +149,9 @@ footer {
     align-items: center;
     justify-self: center;
   }
-
+  form {
+    display: inline-block;
+  }
+  
+  
 }
