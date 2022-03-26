@@ -85,6 +85,10 @@ h2 {
   font-size: 1.5em;
   
 }
+
+#projects {
+  margin-top: 15%;
+}
 .img {
   max-width: 50%;
   height: auto;
@@ -105,10 +109,14 @@ h2 {
 footer a {
   float: right;
   margin: 2%;
+  font-size: 2em;
 }
 
 footer {
   box-sizing: border-box;
+  
+  font-style: italic;
+  background-color: rgb(232, 235, 231);
 }
 /*..............MEDIA...................*/
 @media screen and (min-width: 600px) {
