@@ -24,14 +24,7 @@ main {
   font-family: 'Brush Script MT', cursive;
 }
 
-#aboutme {
-  line-height: 1.5em;
-  font-size: 1em;
-  
-}
 /*.................HEADER..................*/
-
-
 
 .navbar { 
   overflow: hidden;
@@ -87,6 +80,11 @@ h2 {
   color: rgb(42, 79, 94);
 }
 
+#aboutme {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  
+}
 .img {
   max-width: 50%;
   height: auto;
