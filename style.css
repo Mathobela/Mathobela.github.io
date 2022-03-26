@@ -1,6 +1,8 @@
 /*.................UNIVERSAL..............*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -87,7 +89,8 @@ h2 {
 }
 
 #projects {
-  margin-top: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .img {
   max-width: 50%;
