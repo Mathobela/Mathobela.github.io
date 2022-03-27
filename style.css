@@ -44,7 +44,7 @@ main {
   color: rgb(165, 98, 98);
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 .navbar a.icon {
@@ -55,14 +55,14 @@ main {
   top: 0; 
 }
 
-​​​
-
 /*.................BODY........................*/
 h1 {
-    font-size: 1.5em;
+    font-size: 10vw;
+    width: 100%;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 6vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -135,6 +135,13 @@ footer {
     height: 100%;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
   .navbar a.icon {
     display: none;
   }
