@@ -83,7 +83,10 @@ h2 {
   color: rgb(42, 79, 94);
 }
 
-
+#slogan {
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
 #aboutme, #contact, #stack{
   line-height: 1.5em;
   font-size: 1.5em;
