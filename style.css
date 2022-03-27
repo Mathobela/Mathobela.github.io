@@ -18,6 +18,7 @@ body, html{
   min-height: 100vh; 
   display: flex; 
   flex-direction: column;
+  
 }
 
 main {
@@ -82,15 +83,17 @@ h2 {
   color: rgb(42, 79, 94);
 }
 
+
 #aboutme, #contact, #stack{
   line-height: 1.5em;
   font-size: 1.5em;
-  
+  margin-top: 3%; 
+  margin-left: 5%;
 }
 
 #projects {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .img {
   max-width: 50%;
@@ -154,6 +157,8 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-items: center;  
     font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 5%;
   }
 
   #summary ul {
