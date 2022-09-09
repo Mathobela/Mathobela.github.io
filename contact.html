@@ -20,7 +20,7 @@
     function validateForm() {
       let fields = ["fname", "lname", "phone", "email", "message"];
       for(let field of fields) {
-          let x = document.forms["form"]["fname"].value;
+          let x = document.forms["form"][field].value;
           if (x == "") {
           alert(`${field} must be filled out`);
           return false;            
