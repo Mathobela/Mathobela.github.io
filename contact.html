@@ -28,6 +28,14 @@
           }
       }
     }
+
+    function isNumberKey(evt){
+      let charCode = (evt.which) ? evt.which : evt.keyCode
+      if (charCode > 57) {
+        alert("tel should be numbers")
+      }
+      return !(charCode > 31 && (charCode < 48 || charCode > 57));
+    }
     </script>
 </head>
 <body>
@@ -53,7 +61,7 @@
             <label for="lname">Lastname</label>
             <input type="text" class="fields" name="Lastname" id="lname"><br>
             <label for="phone">Cellphone</label>
-            <input type="tel" class="fields" name="Cellphone" id="phone"><br>
+            <input type="tel" class="fields" name="Cellphone" id="phone" onkeypress="return isNumberKey(event);"><br>
             <label for="email">Email</label>
             <input type="email" class="fields" name="email" id="email"><br>
             <label for="message">Talk to me</label><br>
@@ -66,7 +74,7 @@
 <footer>
     <a href="mailto:mathobela.mawasha@outlook.com"><i class="far fa-envelope"></i></a>
     <a href="tel:+27721738142"><i class="fas fa-mobile-alt"></i></a>
-    <a href="https://www.linkedin.com/in/mathobela-paulina-mawasha-b70042b0/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.linkedin.com/in/mathobela-paulina-mawasha-b70042b0/" target=”_blank”><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/Mathobela"><i class="fab fa-github-square"></i></a>
     <p>&copy; Mathobela Mawasha</p>   
 </footer>
