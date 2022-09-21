@@ -92,6 +92,11 @@ h2 {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+a {
+  text-decoration: none;
+}
+
 .img {
   max-width: 50%;
   height: auto;
