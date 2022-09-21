@@ -24,7 +24,7 @@ body, html{
 main {
   width: 85%;
   justify-self: center;
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*.................HEADER..................*/
