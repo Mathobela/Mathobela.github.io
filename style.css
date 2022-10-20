@@ -108,7 +108,44 @@ a {
   justify-self: center;
 }
 
-#form label {
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#form {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+}
+
+fieldset {
+  border: 0px;
+  padding-top: 0.5rem;  
+  padding-bottom: 0.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+input,textarea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: middle;
+  background-color: rgb(143, 140, 140);
+  border: 1px solid #0a0a23;
+}
+
+/* fieldset:last-of-type { 
+  border-bottom: none;
+} */
+
+/* #form label {
   float: left;
   width: 150px;
 }
@@ -120,7 +157,7 @@ a {
 .fields {
   padding: 10px;
   margin: 10px 10px;
-}
+} */
 
 /*..............FOOTER.................*/
 footer a {
