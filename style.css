@@ -127,7 +127,7 @@ fieldset {
   padding-bottom: 0.5rem;
   padding-left: 0px;
   padding-right: 0px;
-  border-bottom: 3px solid #3b3b4f;
+  border-bottom: 3px solid #272424;
 }
 
 input,textarea {
@@ -137,7 +137,8 @@ input,textarea {
   margin-left: 0px;
   margin-right: 0px;
   vertical-align: middle;
-  background-color: rgb(143, 140, 140);
+  
+
   border: 1px solid #0a0a23;
 }
 
